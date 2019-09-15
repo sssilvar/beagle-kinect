@@ -8,5 +8,10 @@ sudo apt-get -y install $FREENECT_PKGS
 
 After installing, you need to add permisions for accessing the kinnect:
 ```bash
-sudo curl -O "/etc/udev/rules.d" 
+sudo curl -o "/etc/udev/rules.d/51-kinect.rules" "https://raw.githubusercontent.com/sssilvar/beagle-kinect/master/docs/51-kinect.rules"
+```
+
+Reboot:
+```bash
+reboot
 ```
