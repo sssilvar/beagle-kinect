@@ -16,7 +16,6 @@ connmanctl> enable wifi
 # Enabled wifi
 ```
 
-
 ```bash
 connmanctl> scan wifi
 # Scan completed for wifi
@@ -26,6 +25,12 @@ List available networks
 ```bash
 connmanctl> services
 # e.g. *AO TNCAPA97AB9    wifi_506583d4fc5e_544e434150413937414239_managed_psk
+```
+
+Create Agent
+```bash
+connmanctl> agent on
+# Agent registered
 ```
 
 Connect to the network
