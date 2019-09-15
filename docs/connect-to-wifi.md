@@ -2,7 +2,7 @@
 First, connect the board via usb. Linux must be installed. Connect to the terminal using SSH as follows:
 
 ```bash
-ssh root@192.168.7.2
+ssh debian@192.168.7.2
 ```
 
 Then, execute the client for wireless configuration:
